@@ -1,0 +1,13 @@
+---
+# defaults file for base
+base_packages:
+  - jq
+  - zip
+  - unzip
+  - curl
+  - git
+  - htop
+  - tree
+  - vim
+  - yum-utils
+  - openssl

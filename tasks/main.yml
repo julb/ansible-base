@@ -1,0 +1,7 @@
+---
+- name: base packages should be installed
+  become: yes
+  ansible.builtin.yum:
+    name: "{{ base_packages }}"
+    state: latest
+    update_cache: yes
