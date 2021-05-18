@@ -11,3 +11,4 @@ base_packages:
   - vim
   - yum-utils
   - openssl
+  - ncurses
