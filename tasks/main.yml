@@ -3,5 +3,5 @@
   become: yes
   ansible.builtin.yum:
     name: "{{ base_packages }}"
-    state: latest
+    state: present
     update_cache: yes
